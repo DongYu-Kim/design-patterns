@@ -25,6 +25,18 @@
     <Filter Include="소스 파일\chapter1\duck">
       <UniqueIdentifier>{54521bfe-7ca0-4944-ba15-24556738127c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter2">
+      <UniqueIdentifier>{4d5134e3-ba05-465d-b7ec-bc2da79d2c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter2">
+      <UniqueIdentifier>{5247065f-6893-4540-b648-15490dc87c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\weather_data">
+      <UniqueIdentifier>{a74a0e51-c521-4506-8e43-040f4fd41487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter2\display">
+      <UniqueIdentifier>{b3da1ce0-bbbc-42d6-872f-48e7149b7395}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -66,6 +78,24 @@
     <ClCompile Include="chapter1_fly_rocket_powered.cpp">
       <Filter>소스 파일\chapter1\duck_behavior</Filter>
     </ClCompile>
+    <ClCompile Include="chapter2.cpp">
+      <Filter>소스 파일\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter2_weather_data.cpp">
+      <Filter>소스 파일\chapter2\weather_data</Filter>
+    </ClCompile>
+    <ClCompile Include="current_condition_display.cpp">
+      <Filter>소스 파일\chapter2\display</Filter>
+    </ClCompile>
+    <ClCompile Include="statistics_display.cpp">
+      <Filter>소스 파일\chapter2\display</Filter>
+    </ClCompile>
+    <ClCompile Include="forecast_display.cpp">
+      <Filter>소스 파일\chapter2\display</Filter>
+    </ClCompile>
+    <ClCompile Include="heat_index_display.cpp">
+      <Filter>소스 파일\chapter2\display</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -82,6 +112,24 @@
     </ClInclude>
     <ClInclude Include="chapter1.h">
       <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2.h">
+      <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2_subject_interface.h">
+      <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2_observer_interface.h">
+      <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2_display_element_interface.h">
+      <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2_weather_data.h">
+      <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter2_display.h">
+      <Filter>헤더 파일\chapter2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
