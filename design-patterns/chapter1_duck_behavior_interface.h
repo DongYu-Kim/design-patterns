@@ -1,12 +1,12 @@
 #pragma once
 
-namespace chapter1_duck {
+namespace chapter1 {
 	class FlyBehavior {
 	public:
-		virtual void PerformFly() {}
+		virtual void PerformFly() = 0;
 	};
 	class QuackBehavior {
 	public:
-		virtual void PerformQuack() {}
+		virtual void PerformQuack() = 0;
 	};
 }

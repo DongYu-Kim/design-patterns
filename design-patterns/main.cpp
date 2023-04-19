@@ -1,8 +1,8 @@
-﻿void Chapter1Main();
+﻿#include "chapter1.h"
 
 int main()
 {
-    Chapter1Main();
+    chapter1::main();
 
     return 0;
 }

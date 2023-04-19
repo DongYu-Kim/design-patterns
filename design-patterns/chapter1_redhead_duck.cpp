@@ -5,7 +5,7 @@
 using std::cout;
 using std::endl;
 
-namespace chapter1_duck {
+namespace chapter1 {
 	RedheadDuck::RedheadDuck() {
 		this->quack_behavior_ = new Quack();
 		this->fly_behavior_ = new FlyWithWings();

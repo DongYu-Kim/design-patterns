@@ -4,7 +4,7 @@
 using std::cout;
 using std::endl;
 
-namespace chapter1_duck {
+namespace chapter1 {
 	void FlyNoWay::PerformFly() {
 		cout << "...(날지 못 한다)" << endl;
 	}

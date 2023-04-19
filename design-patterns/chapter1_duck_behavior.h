@@ -1,7 +1,7 @@
 #pragma once
 #include "chapter1_duck_behavior_interface.h"
 
-namespace chapter1_duck {
+namespace chapter1 {
 	class FlyWithWings : public FlyBehavior {
 		void PerformFly() override;
 	};

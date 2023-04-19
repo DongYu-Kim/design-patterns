@@ -4,7 +4,7 @@
 using std::cout;
 using std::endl;
 
-namespace chapter1_duck {
+namespace chapter1 {
 	void Squeak::PerformQuack() {
 		cout << "»à" << endl;
 	}

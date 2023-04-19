@@ -4,7 +4,7 @@
 using std::cout;
 using std::endl;
 
-namespace chapter1_duck {
+namespace chapter1 {
 	void FlyRocketPowered::PerformFly() {
 		cout << "½´¿ì¿õ" << endl;
 	}

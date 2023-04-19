@@ -80,5 +80,8 @@
     <ClInclude Include="chapter1_duck_interface.h">
       <Filter>헤더 파일\chapter1</Filter>
     </ClInclude>
+    <ClInclude Include="chapter1.h">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

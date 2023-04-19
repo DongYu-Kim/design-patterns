@@ -1,7 +1,7 @@
 #pragma once
 #include "chapter1_duck_behavior.h"
 
-namespace chapter1_duck {
+namespace chapter1 {
 	class Duck {
 	protected:
 		FlyBehavior* fly_behavior_ = nullptr;

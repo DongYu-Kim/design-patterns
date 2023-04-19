@@ -4,7 +4,7 @@
 using std::cout;
 using std::endl;
 
-namespace chapter1_duck {
+namespace chapter1 {
 	Duck::~Duck() {
 		if (this->quack_behavior_) delete this->quack_behavior_;
 		if (this->fly_behavior_) delete this->fly_behavior_;
