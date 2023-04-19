@@ -13,10 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\chapter1">
+      <UniqueIdentifier>{7ab1aecb-73d5-4380-9551-93d89ffff96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter1">
+      <UniqueIdentifier>{874d3da4-6763-4c21-ab66-c49aecd66539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter1\duck_behavior">
+      <UniqueIdentifier>{2f3fabe8-442e-4da3-8b69-247ed5cf3cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter1\duck">
+      <UniqueIdentifier>{54521bfe-7ca0-4944-ba15-24556738127c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="design-patterns.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="chapter1.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_fly_with_wings.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_fly_no_way.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_quack.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_squeak.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_mute_quack.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_mallard_duck.cpp">
+      <Filter>소스 파일\chapter1\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_decoy_duck.cpp">
+      <Filter>소스 파일\chapter1\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_redhead_duck.cpp">
+      <Filter>소스 파일\chapter1\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_rubber_duck.cpp">
+      <Filter>소스 파일\chapter1\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_duck.cpp">
+      <Filter>소스 파일\chapter1\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter1_fly_rocket_powered.cpp">
+      <Filter>소스 파일\chapter1\duck_behavior</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chapter1_duck_behavior_interface.h">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter1_duck_behavior.h">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter1_duck.h">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter1_duck_interface.h">
+      <Filter>헤더 파일\chapter1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

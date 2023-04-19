@@ -127,7 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="design-patterns.cpp" />
+    <ClCompile Include="chapter1.cpp" />
+    <ClCompile Include="chapter1_duck.cpp" />
+    <ClCompile Include="chapter1_decoy_duck.cpp" />
+    <ClCompile Include="chapter1_fly_no_way.cpp" />
+    <ClCompile Include="chapter1_fly_rocket_powered.cpp" />
+    <ClCompile Include="chapter1_fly_with_wings.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="chapter1_mallard_duck.cpp" />
+    <ClCompile Include="chapter1_mute_quack.cpp" />
+    <ClCompile Include="chapter1_quack.cpp" />
+    <ClCompile Include="chapter1_redhead_duck.cpp" />
+    <ClCompile Include="chapter1_rubber_duck.cpp" />
+    <ClCompile Include="chapter1_squeak.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chapter1_duck.h" />
+    <ClInclude Include="chapter1_duck_behavior.h" />
+    <ClInclude Include="chapter1_duck_behavior_interface.h" />
+    <ClInclude Include="chapter1_duck_interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
