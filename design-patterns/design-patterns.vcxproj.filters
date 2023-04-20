@@ -43,6 +43,12 @@
     <Filter Include="헤더 파일\chapter3">
       <UniqueIdentifier>{07519034-a51e-49c7-b07d-b54264894ca8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter3\beverage">
+      <UniqueIdentifier>{a3e30a36-0a57-48e6-b03a-9019233918b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter3\decorator">
+      <UniqueIdentifier>{b9bf702f-f19b-45a4-8827-bea68fe894bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -105,6 +111,30 @@
     <ClCompile Include="chapter3.cpp">
       <Filter>소스 파일\chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="house_blend.cpp">
+      <Filter>소스 파일\chapter3\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="espresso.cpp">
+      <Filter>소스 파일\chapter3\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="dark_roast.cpp">
+      <Filter>소스 파일\chapter3\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="decaf.cpp">
+      <Filter>소스 파일\chapter3\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="milk.cpp">
+      <Filter>소스 파일\chapter3\decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="mocha.cpp">
+      <Filter>소스 파일\chapter3\decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="soy.cpp">
+      <Filter>소스 파일\chapter3\decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="whip.cpp">
+      <Filter>소스 파일\chapter3\decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -141,6 +171,18 @@
       <Filter>헤더 파일\chapter2</Filter>
     </ClInclude>
     <ClInclude Include="chapter3.h">
+      <Filter>헤더 파일\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter3_beverage_interface.h">
+      <Filter>헤더 파일\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter3_beverage.h">
+      <Filter>헤더 파일\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter3_beverage_decorator_interface.h">
+      <Filter>헤더 파일\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter3_beverage_decorator.h">
       <Filter>헤더 파일\chapter3</Filter>
     </ClInclude>
   </ItemGroup>

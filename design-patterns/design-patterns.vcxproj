@@ -137,7 +137,11 @@
     <ClCompile Include="chapter2_weather_data.cpp" />
     <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="current_condition_display.cpp" />
+    <ClCompile Include="dark_roast.cpp" />
+    <ClCompile Include="decaf.cpp" />
+    <ClCompile Include="espresso.cpp" />
     <ClCompile Include="forecast_display.cpp" />
+    <ClCompile Include="house_blend.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -145,8 +149,12 @@
     <ClCompile Include="chapter1_redhead_duck.cpp" />
     <ClCompile Include="chapter1_rubber_duck.cpp" />
     <ClCompile Include="chapter1_squeak.cpp" />
+    <ClCompile Include="milk.cpp" />
+    <ClCompile Include="mocha.cpp" />
+    <ClCompile Include="soy.cpp" />
     <ClCompile Include="statistics_display.cpp" />
     <ClCompile Include="heat_index_display.cpp" />
+    <ClCompile Include="whip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1.h" />
@@ -161,6 +169,10 @@
     <ClInclude Include="chapter2_subject_interface.h" />
     <ClInclude Include="chapter2_weather_data.h" />
     <ClInclude Include="chapter3.h" />
+    <ClInclude Include="chapter3_beverage.h" />
+    <ClInclude Include="chapter3_beverage_decorator.h" />
+    <ClInclude Include="chapter3_beverage_decorator_interface.h" />
+    <ClInclude Include="chapter3_beverage_interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
