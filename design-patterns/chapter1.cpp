@@ -1,12 +1,10 @@
 #include <iostream>
 #include "chapter1_duck.h"
 #include "chapter1_duck_behavior.h"
-using std::cout;
-using std::endl;
 
 namespace chapter1 {
 	void main() {
-		cout << "========== Chapter1 ==========" << endl;
+		std::cout << "========== Chapter1 ==========" << std::endl;
 		chapter1::MallardDuck mallar_duck;
 		mallar_duck.Display();
 		mallar_duck.PerformQuack();

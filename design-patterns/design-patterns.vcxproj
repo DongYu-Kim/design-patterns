@@ -135,6 +135,7 @@
     <ClCompile Include="chapter1_fly_with_wings.cpp" />
     <ClCompile Include="chapter2.cpp" />
     <ClCompile Include="chapter2_weather_data.cpp" />
+    <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="current_condition_display.cpp" />
     <ClCompile Include="forecast_display.cpp" />
     <ClCompile Include="main.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="chapter2_observer_interface.h" />
     <ClInclude Include="chapter2_subject_interface.h" />
     <ClInclude Include="chapter2_weather_data.h" />
+    <ClInclude Include="chapter3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

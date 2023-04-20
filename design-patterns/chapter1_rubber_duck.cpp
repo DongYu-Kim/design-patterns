@@ -2,15 +2,12 @@
 #include "chapter1_duck.h"
 #include "chapter1_duck_behavior.h"
 
-using std::cout;
-using std::endl;
-
 namespace chapter1 {
 	RubberDuck::RubberDuck() {
 		this->quack_behavior_ = new Squeak();
 		this->fly_behavior_ = new FlyNoWay();
 	}
 	void RubberDuck::Display() {
-		cout << "绊公坷府" << endl;
+		std::cout << "绊公坷府" << std::endl;
 	}
 }

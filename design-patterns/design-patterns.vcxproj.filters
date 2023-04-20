@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\chapter2\display">
       <UniqueIdentifier>{b3da1ce0-bbbc-42d6-872f-48e7149b7395}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter3">
+      <UniqueIdentifier>{ebd9a419-9be9-4991-bae0-6a3382afce4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter3">
+      <UniqueIdentifier>{07519034-a51e-49c7-b07d-b54264894ca8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -96,6 +102,9 @@
     <ClCompile Include="heat_index_display.cpp">
       <Filter>소스 파일\chapter2\display</Filter>
     </ClCompile>
+    <ClCompile Include="chapter3.cpp">
+      <Filter>소스 파일\chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -130,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="chapter2_display.h">
       <Filter>헤더 파일\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter3.h">
+      <Filter>헤더 파일\chapter3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

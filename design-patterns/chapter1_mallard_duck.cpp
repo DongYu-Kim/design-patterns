@@ -2,15 +2,12 @@
 #include "chapter1_duck.h"
 #include "chapter1_duck_behavior.h"
 
-using std::cout;
-using std::endl;
-
 namespace chapter1 {
 	MallardDuck::MallardDuck() {
 		this->quack_behavior_ = new Quack();
 		this->fly_behavior_ = new FlyWithWings();
 	}
 	void MallardDuck::Display() {
-		cout << "没嫡坷府" << endl;
+		std::cout << "没嫡坷府" << std::endl;
 	}
 }

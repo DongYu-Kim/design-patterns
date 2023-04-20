@@ -1,16 +1,13 @@
 #include <iostream>
 #include "chapter1_duck_interface.h"
 
-using std::cout;
-using std::endl;
-
 namespace chapter1 {
 	Duck::~Duck() {
 		if (this->quack_behavior_) delete this->quack_behavior_;
 		if (this->fly_behavior_) delete this->fly_behavior_;
 	}
 	void Duck::Swim() {
-		cout << "รทบก" << endl;
+		std::cout << "รทบก" << std::endl;
 	}
 	void Duck::PerformQuack() {
 		this->quack_behavior_->PerformQuack();
