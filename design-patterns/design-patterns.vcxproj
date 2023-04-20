@@ -136,6 +136,14 @@
     <ClCompile Include="chapter2.cpp" />
     <ClCompile Include="chapter2_weather_data.cpp" />
     <ClCompile Include="chapter3.cpp" />
+    <ClCompile Include="chapter4.cpp" />
+    <ClCompile Include="chapter4_simple_factory_cheese_pizza.cpp" />
+    <ClCompile Include="chapter4_simple_factory_clam_pizza.cpp" />
+    <ClCompile Include="chapter4_simple_factory_pepperoni_pizza.cpp" />
+    <ClCompile Include="chapter4_simple_factory_pizza.cpp" />
+    <ClCompile Include="chapter4_simple_factory_pizza_store.cpp" />
+    <ClCompile Include="chapter4_simple_factory_veggie_pizza.cpp" />
+    <ClCompile Include="chapter4_simple_pizza_factory.cpp" />
     <ClCompile Include="current_condition_display.cpp" />
     <ClCompile Include="dark_roast.cpp" />
     <ClCompile Include="decaf.cpp" />
@@ -173,6 +181,10 @@
     <ClInclude Include="chapter3_beverage_decorator.h" />
     <ClInclude Include="chapter3_beverage_decorator_interface.h" />
     <ClInclude Include="chapter3_beverage_interface.h" />
+    <ClInclude Include="chapter4.h" />
+    <ClInclude Include="chapter4_simple_factory_pizza.h" />
+    <ClInclude Include="chapter4_simple_factory_pizza_factory.h" />
+    <ClInclude Include="chapter4_simple_factory_pizza_store.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

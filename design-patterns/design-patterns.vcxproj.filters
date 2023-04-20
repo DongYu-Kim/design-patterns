@@ -49,6 +49,18 @@
     <Filter Include="소스 파일\chapter3\decorator">
       <UniqueIdentifier>{b9bf702f-f19b-45a4-8827-bea68fe894bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter4">
+      <UniqueIdentifier>{cd11abc1-24eb-4b2a-82af-1a8ae86423c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter4">
+      <UniqueIdentifier>{af0ec7ab-c747-4fbd-8b09-8c83826c1596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\simple_factory">
+      <UniqueIdentifier>{52d82d8e-be85-4985-a73a-c30c0c703ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter4\simple_factory">
+      <UniqueIdentifier>{4d672adb-569b-4299-9121-aafe3572c50b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -135,6 +147,30 @@
     <ClCompile Include="whip.cpp">
       <Filter>소스 파일\chapter3\decorator</Filter>
     </ClCompile>
+    <ClCompile Include="chapter4.cpp">
+      <Filter>소스 파일\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_pizza.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_cheese_pizza.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_veggie_pizza.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_clam_pizza.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_pepperoni_pizza.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_pizza_factory.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_simple_factory_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\simple_factory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -184,6 +220,18 @@
     </ClInclude>
     <ClInclude Include="chapter3_beverage_decorator.h">
       <Filter>헤더 파일\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4.h">
+      <Filter>헤더 파일\chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_simple_factory_pizza.h">
+      <Filter>헤더 파일\chapter4\simple_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_simple_factory_pizza_factory.h">
+      <Filter>헤더 파일\chapter4\simple_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_simple_factory_pizza_store.h">
+      <Filter>헤더 파일\chapter4\simple_factory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
