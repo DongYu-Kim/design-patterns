@@ -2,15 +2,15 @@
 #include "chapter2_display.h"
 
 namespace chapter2 {
-	HeatIndexDisplay::HeatIndexDisplay(Subject* subject) {
-		this->subject_ = subject;
-		this->subject_->RegisterObserver(this);
+	HeatIndexDisplay::HeatIndexDisplay(WeatherData* weather_data) {
+		this->weather_data_ = weather_data;
+		this->weather_data_->RegisterObserver(this);
 	}
 	HeatIndexDisplay::~HeatIndexDisplay() {
-		this->subject_->RemoveObserver(this);
+		this->weather_data_->RemoveObserver(this);
 	}
-	void HeatIndexDisplay::Update(double temperature, double humidity, double pressure) {
-		this->heat_index_ = HeatIndexDisplay::ComputeHeatIndex(temperature, humidity);
+	void HeatIndexDisplay::Update() {
+		this->heat_index_ = HeatIndexDisplay::ComputeHeatIndex(this->weather_data_->GetTemperator(), this->weather_data_->GetHumidity());
 		this->Display();
 	}
 	void HeatIndexDisplay::Display() {

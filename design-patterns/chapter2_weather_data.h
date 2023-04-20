@@ -15,6 +15,10 @@ namespace chapter2 {
 		virtual void NotifyObserver() override;
 	public:
 		WeatherData();
+		double GetTemperator();
+		double GetHumidity();
+		double GetPressure();
+
 		virtual void RegisterObserver(Observer* observer) override;
 		virtual void RemoveObserver(Observer* observer) override;
 		void SetMeasurements(double temperatue, double humidity, double pressure);

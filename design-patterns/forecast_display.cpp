@@ -2,18 +2,18 @@
 #include "chapter2_display.h"
 
 namespace chapter2 {
-	ForecastDisplay::ForecastDisplay(Subject* subject) {
+	ForecastDisplay::ForecastDisplay(WeatherData* weather_data) {
 		this->is_update_init = false;
-		this->subject_ = subject;
-		this->subject_->RegisterObserver(this);
+		this->weather_data_ = weather_data;
+		this->weather_data_->RegisterObserver(this);
 	}
 	ForecastDisplay::~ForecastDisplay() {
-		this->subject_->RemoveObserver(this);
+		this->weather_data_->RemoveObserver(this);
 	}
-	void ForecastDisplay::Update(double temperature, double humidity, double pressure) {
+	void ForecastDisplay::Update() {
 		if (this->is_update_init) this->last_pressure_ = this->current_pressure_;
-		else this->last_pressure_ = pressure;
-		this->current_pressure_ = pressure;
+		else this->last_pressure_ = this->weather_data_->GetPressure();
+		this->current_pressure_ = this->weather_data_->GetPressure();
 		this->is_update_init = true;
 		this->Display();
 	}

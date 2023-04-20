@@ -2,17 +2,18 @@
 #include "chapter2_display.h"
 
 namespace chapter2 {
-	StatisticsDisplay::StatisticsDisplay(Subject* subject) {
+	StatisticsDisplay::StatisticsDisplay(WeatherData* weather_data) {
 		this->count_temperature_ = 0;
 		this->max_temperature_ = -999.9;
 		this->min_temperature_ = 999.9;
-		this->subject_ = subject;
-		this->subject_->RegisterObserver(this);
+		this->weather_data_ = weather_data;
+		this->weather_data_->RegisterObserver(this);
 	}
 	StatisticsDisplay::~StatisticsDisplay() {
-		this->subject_->RemoveObserver(this);
+		this->weather_data_->RemoveObserver(this);
 	}
-	void StatisticsDisplay::Update(double temperature, double humidity, double pressure) {
+	void StatisticsDisplay::Update() {
+		double temperature = this->weather_data_->GetTemperator();
 		this->sum_temperature_ += temperature;
 		this->count_temperature_++;
 		if (temperature > this->max_temperature_) this->max_temperature_ = temperature;

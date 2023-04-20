@@ -2,16 +2,16 @@
 #include "chapter2_display.h"
 
 namespace chapter2 {
-	CurrentConditionDisplay::CurrentConditionDisplay(Subject* subject) {
-		this->subject_ = subject;
-		this->subject_->RegisterObserver(this);
+	CurrentConditionDisplay::CurrentConditionDisplay(WeatherData* weather_data) {
+		this->weather_data_ = weather_data;
+		this->weather_data_->RegisterObserver(this);
 	}
 	CurrentConditionDisplay::~CurrentConditionDisplay() {
-		this->subject_->RemoveObserver(this);
+		this->weather_data_->RemoveObserver(this);
 	}
-	void CurrentConditionDisplay::Update(double temperature, double humidity, double pressure) {
-		this->temperature_ = temperature;
-		this->humidity_ = humidity;
+	void CurrentConditionDisplay::Update() {
+		this->temperature_ = this->weather_data_->GetTemperator();
+		this->humidity_ = this->weather_data_->GetHumidity();
 		this->Display();
 	}
 	void CurrentConditionDisplay::Display() {

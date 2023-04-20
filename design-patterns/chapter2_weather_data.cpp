@@ -12,7 +12,7 @@ namespace chapter2 {
 	}
 	void WeatherData::NotifyObserver() {
 		for (Observer* observer : this->observers_) {
-			observer->Update(this->temperature_, this->humidity_, this->pressure_);
+			observer->Update();
 		}
 	}
 	void WeatherData::MeasurementsChanged() {
@@ -23,5 +23,14 @@ namespace chapter2 {
 		this->humidity_ = humidity;
 		this->pressure_ = pressure;
 		this->MeasurementsChanged();
+	}
+	double WeatherData::GetTemperator() {
+		return this->temperature_;
+	}
+	double WeatherData::GetHumidity() {
+		return this->humidity_;
+	}
+	double WeatherData::GetPressure() {
+		return this->pressure_;
 	}
 }
