@@ -61,6 +61,18 @@
     <Filter Include="헤더 파일\chapter4\simple_factory">
       <UniqueIdentifier>{4d672adb-569b-4299-9121-aafe3572c50b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter4\factory_method">
+      <UniqueIdentifier>{33156f2a-c83c-43ed-aea3-5dd219d3387c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\factory_method">
+      <UniqueIdentifier>{e29c48c2-2e62-4b47-a024-40eaba122d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\factory_method\ny_style_pizza">
+      <UniqueIdentifier>{39493332-a31d-4a38-bf63-4b2bdd8665bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\factory_method\chicago_style_pizza">
+      <UniqueIdentifier>{958f7f2a-d26d-4ae6-9b9f-362dacb5d150}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -171,6 +183,42 @@
     <ClCompile Include="chapter4_simple_factory_pizza_store.cpp">
       <Filter>소스 파일\chapter4\simple_factory</Filter>
     </ClCompile>
+    <ClCompile Include="chapter4_factory_method_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\factory_method</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_ny_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\factory_method</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_chicago_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\factory_method</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_ny_style_cheese_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\ny_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_ny_style_clam_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\ny_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_ny_style_pepperoni_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\ny_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_ny_style_veggie_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\ny_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_chicago_style_cheese_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\chicago_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_chicago_style_clam_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\chicago_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_chicago_style_pepperoni_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\chicago_style_pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_factory_method_chicago_style_veggie_pizza.cpp">
+      <Filter>소스 파일\chapter4\factory_method\chicago_style_pizza</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -232,6 +280,21 @@
     </ClInclude>
     <ClInclude Include="chapter4_simple_factory_pizza_store.h">
       <Filter>헤더 파일\chapter4\simple_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_factory_method_pizza.h">
+      <Filter>헤더 파일\chapter4\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_factory_method_ny_style_pizza.h">
+      <Filter>헤더 파일\chapter4\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_factory_method_chicaco_style_pizza.h">
+      <Filter>헤더 파일\chapter4\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_factory_method_pizza_store_interface.h">
+      <Filter>헤더 파일\chapter4\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_factory_method_pizza_store.h">
+      <Filter>헤더 파일\chapter4\factory_method</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
