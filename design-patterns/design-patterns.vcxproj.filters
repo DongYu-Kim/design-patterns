@@ -73,6 +73,24 @@
     <Filter Include="소스 파일\chapter4\factory_method\chicago_style_pizza">
       <UniqueIdentifier>{958f7f2a-d26d-4ae6-9b9f-362dacb5d150}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter4\abstract_pattern">
+      <UniqueIdentifier>{6c8b239c-3a11-4f27-8add-d9f3ec53355e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\abstract_factory">
+      <UniqueIdentifier>{1553a119-77a7-4b2a-abb5-28ff92813a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\abstract_factory\pizza_ingredient">
+      <UniqueIdentifier>{6094c610-1a5a-4935-b1b9-edc1e760be74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\abstract_factory\pizza_ingredient_factory">
+      <UniqueIdentifier>{bca0a484-a0ee-4307-80a8-24fbd29fd238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\abstract_factory\pizza">
+      <UniqueIdentifier>{1e38fc6b-22fb-4403-8dbb-f63375ce86a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter4\abstract_factory\pizza_store">
+      <UniqueIdentifier>{d16adddb-bebf-471a-a5e4-9cbfff783d26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -219,6 +237,87 @@
     <ClCompile Include="chapter4_factory_method_chicago_style_veggie_pizza.cpp">
       <Filter>소스 파일\chapter4\factory_method\chicago_style_pizza</Filter>
     </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_ny_pizza_ingredient_factory.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_chicago_pizza_ingredient_factory.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_thick_crust_dough.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_thin_crust_dough.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_marinara_sauce.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_plum_tomato_sauce.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_mozzarella_cheese.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_parmesan_cheese.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_reggiano_cheese.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_black_olives.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_eggplant.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_garlic.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_mushroom.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_onion.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_red_pepper.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_spinach.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_sliced_pepperoni.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_fresh_clams.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_frozen_clams.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_pizza.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_store</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_ny_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_store</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_chicago_pizza_store.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza_store</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_cheese_pizza.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_clam_pizza.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_pepperoni_pizza.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter4_abstract_factory_veggie_pizza.cpp">
+      <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -295,6 +394,30 @@
     </ClInclude>
     <ClInclude Include="chapter4_factory_method_pizza_store.h">
       <Filter>헤더 파일\chapter4\factory_method</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_ingredient_factory_interface.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_ingredient_factory.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_ingredient_interface.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_ingredient.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_store_interface.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_store.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza_interface.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter4_abstract_factory_pizza.h">
+      <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
