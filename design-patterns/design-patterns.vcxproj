@@ -183,12 +183,14 @@
     <ClCompile Include="chapter4_simple_factory_pizza_store.cpp" />
     <ClCompile Include="chapter4_simple_factory_veggie_pizza.cpp" />
     <ClCompile Include="chapter4_simple_pizza_factory.cpp" />
-    <ClCompile Include="current_condition_display.cpp" />
-    <ClCompile Include="dark_roast.cpp" />
-    <ClCompile Include="decaf.cpp" />
-    <ClCompile Include="espresso.cpp" />
-    <ClCompile Include="forecast_display.cpp" />
-    <ClCompile Include="house_blend.cpp" />
+    <ClCompile Include="chapter5.cpp" />
+    <ClCompile Include="chapter5_singleton_chocolate_boiler.cpp" />
+    <ClCompile Include="chapter2_current_condition_display.cpp" />
+    <ClCompile Include="chapter3_dark_roast.cpp" />
+    <ClCompile Include="chapter3_decaf.cpp" />
+    <ClCompile Include="chapter3_espresso.cpp" />
+    <ClCompile Include="chapter2_forecast_display.cpp" />
+    <ClCompile Include="chapter3_house_blend.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -196,12 +198,12 @@
     <ClCompile Include="chapter1_redhead_duck.cpp" />
     <ClCompile Include="chapter1_rubber_duck.cpp" />
     <ClCompile Include="chapter1_squeak.cpp" />
-    <ClCompile Include="milk.cpp" />
-    <ClCompile Include="mocha.cpp" />
-    <ClCompile Include="soy.cpp" />
-    <ClCompile Include="statistics_display.cpp" />
-    <ClCompile Include="heat_index_display.cpp" />
-    <ClCompile Include="whip.cpp" />
+    <ClCompile Include="chapter3_milk.cpp" />
+    <ClCompile Include="chapter3_mocha.cpp" />
+    <ClCompile Include="chapter3_soy.cpp" />
+    <ClCompile Include="chapter2_statistics_display.cpp" />
+    <ClCompile Include="chapter2_heat_index_display.cpp" />
+    <ClCompile Include="chapter3_whip.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1.h" />
@@ -237,6 +239,8 @@
     <ClInclude Include="chapter4_simple_factory_pizza_store.h" />
     <ClInclude Include="chapter4_abstract_factory_pizza_store.h" />
     <ClInclude Include="chapter4_abstract_factory_pizza_interface.h" />
+    <ClInclude Include="chapter5.h" />
+    <ClInclude Include="chapter5_singleton_chocolate_boiler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

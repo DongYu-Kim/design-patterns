@@ -91,6 +91,12 @@
     <Filter Include="소스 파일\chapter4\abstract_factory\pizza_store">
       <UniqueIdentifier>{d16adddb-bebf-471a-a5e4-9cbfff783d26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter5">
+      <UniqueIdentifier>{a1c0f559-1945-42a6-b127-64d531fa9b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter5">
+      <UniqueIdentifier>{fb058e8f-e380-43c1-ac42-8ed1e78bacf0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -138,43 +144,43 @@
     <ClCompile Include="chapter2_weather_data.cpp">
       <Filter>소스 파일\chapter2\weather_data</Filter>
     </ClCompile>
-    <ClCompile Include="current_condition_display.cpp">
+    <ClCompile Include="chapter2_current_condition_display.cpp">
       <Filter>소스 파일\chapter2\display</Filter>
     </ClCompile>
-    <ClCompile Include="statistics_display.cpp">
+    <ClCompile Include="chapter2_statistics_display.cpp">
       <Filter>소스 파일\chapter2\display</Filter>
     </ClCompile>
-    <ClCompile Include="forecast_display.cpp">
+    <ClCompile Include="chapter2_forecast_display.cpp">
       <Filter>소스 파일\chapter2\display</Filter>
     </ClCompile>
-    <ClCompile Include="heat_index_display.cpp">
+    <ClCompile Include="chapter2_heat_index_display.cpp">
       <Filter>소스 파일\chapter2\display</Filter>
     </ClCompile>
     <ClCompile Include="chapter3.cpp">
       <Filter>소스 파일\chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="house_blend.cpp">
+    <ClCompile Include="chapter3_house_blend.cpp">
       <Filter>소스 파일\chapter3\beverage</Filter>
     </ClCompile>
-    <ClCompile Include="espresso.cpp">
+    <ClCompile Include="chapter3_espresso.cpp">
       <Filter>소스 파일\chapter3\beverage</Filter>
     </ClCompile>
-    <ClCompile Include="dark_roast.cpp">
+    <ClCompile Include="chapter3_dark_roast.cpp">
       <Filter>소스 파일\chapter3\beverage</Filter>
     </ClCompile>
-    <ClCompile Include="decaf.cpp">
+    <ClCompile Include="chapter3_decaf.cpp">
       <Filter>소스 파일\chapter3\beverage</Filter>
     </ClCompile>
-    <ClCompile Include="milk.cpp">
+    <ClCompile Include="chapter3_milk.cpp">
       <Filter>소스 파일\chapter3\decorator</Filter>
     </ClCompile>
-    <ClCompile Include="mocha.cpp">
+    <ClCompile Include="chapter3_mocha.cpp">
       <Filter>소스 파일\chapter3\decorator</Filter>
     </ClCompile>
-    <ClCompile Include="soy.cpp">
+    <ClCompile Include="chapter3_soy.cpp">
       <Filter>소스 파일\chapter3\decorator</Filter>
     </ClCompile>
-    <ClCompile Include="whip.cpp">
+    <ClCompile Include="chapter3_whip.cpp">
       <Filter>소스 파일\chapter3\decorator</Filter>
     </ClCompile>
     <ClCompile Include="chapter4.cpp">
@@ -318,6 +324,12 @@
     <ClCompile Include="chapter4_abstract_factory_veggie_pizza.cpp">
       <Filter>소스 파일\chapter4\abstract_factory\pizza</Filter>
     </ClCompile>
+    <ClCompile Include="chapter5.cpp">
+      <Filter>소스 파일\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter5_singleton_chocolate_boiler.cpp">
+      <Filter>소스 파일\chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -418,6 +430,12 @@
     </ClInclude>
     <ClInclude Include="chapter4_abstract_factory_pizza.h">
       <Filter>헤더 파일\chapter4\abstract_pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter5.h">
+      <Filter>헤더 파일\chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter5_singleton_chocolate_boiler.h">
+      <Filter>헤더 파일\chapter5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
