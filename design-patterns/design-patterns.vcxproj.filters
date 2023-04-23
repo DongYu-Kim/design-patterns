@@ -97,6 +97,24 @@
     <Filter Include="헤더 파일\chapter5">
       <UniqueIdentifier>{fb058e8f-e380-43c1-ac42-8ed1e78bacf0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter6">
+      <UniqueIdentifier>{2ec2840a-7056-4f43-b91b-58daf216d20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter6">
+      <UniqueIdentifier>{9025f9b6-9ea2-42d0-943a-39df1b8586f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter6\simple_remote">
+      <UniqueIdentifier>{0415a25d-806e-4623-8863-1d5fa923a9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\simple_remote">
+      <UniqueIdentifier>{6538b634-c4c7-40f9-8cd8-09f0a164ba3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\simple_remote\api">
+      <UniqueIdentifier>{26347457-c0f5-4e0c-a119-869ed148f3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\simple_remote\command">
+      <UniqueIdentifier>{c29dd2fe-565d-48ca-8ca7-5e77d417f157}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -330,6 +348,27 @@
     <ClCompile Include="chapter5_singleton_chocolate_boiler.cpp">
       <Filter>소스 파일\chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="chapter6.cpp">
+      <Filter>소스 파일\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_light_api.cpp">
+      <Filter>소스 파일\chapter6\simple_remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_garage_door_api.cpp">
+      <Filter>소스 파일\chapter6\simple_remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_light_on_command.cpp">
+      <Filter>소스 파일\chapter6\simple_remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_light_off_command.cpp">
+      <Filter>소스 파일\chapter6\simple_remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_garage_door_open_command.cpp">
+      <Filter>소스 파일\chapter6\simple_remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_simple_remote_control.cpp">
+      <Filter>소스 파일\chapter6\simple_remote</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -436,6 +475,21 @@
     </ClInclude>
     <ClInclude Include="chapter5_singleton_chocolate_boiler.h">
       <Filter>헤더 파일\chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6.h">
+      <Filter>헤더 파일\chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_simple_remote_command_interface.h">
+      <Filter>헤더 파일\chapter6\simple_remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_simple_remote_command.h">
+      <Filter>헤더 파일\chapter6\simple_remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_simple_remote_api.h">
+      <Filter>헤더 파일\chapter6\simple_remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_simple_remote_control.h">
+      <Filter>헤더 파일\chapter6\simple_remote</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

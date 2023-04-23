@@ -191,6 +191,13 @@
     <ClCompile Include="chapter3_espresso.cpp" />
     <ClCompile Include="chapter2_forecast_display.cpp" />
     <ClCompile Include="chapter3_house_blend.cpp" />
+    <ClCompile Include="chapter6.cpp" />
+    <ClCompile Include="chapter6_simple_remote_control.cpp" />
+    <ClCompile Include="chapter6_simple_remote_garage_door_api.cpp" />
+    <ClCompile Include="chapter6_simple_remote_garage_door_open_command.cpp" />
+    <ClCompile Include="chapter6_simple_remote_light_api.cpp" />
+    <ClCompile Include="chapter6_simple_remote_light_off_command.cpp" />
+    <ClCompile Include="chapter6_simple_remote_light_on_command.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -241,6 +248,11 @@
     <ClInclude Include="chapter4_abstract_factory_pizza_interface.h" />
     <ClInclude Include="chapter5.h" />
     <ClInclude Include="chapter5_singleton_chocolate_boiler.h" />
+    <ClInclude Include="chapter6.h" />
+    <ClInclude Include="chapter6_simple_remote_api.h" />
+    <ClInclude Include="chapter6_simple_remote_command.h" />
+    <ClInclude Include="chapter6_simple_remote_command_interface.h" />
+    <ClInclude Include="chapter6_simple_remote_control.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
