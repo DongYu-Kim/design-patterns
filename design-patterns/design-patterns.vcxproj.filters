@@ -127,6 +127,18 @@
     <Filter Include="소스 파일\chapter6\remote\command">
       <UniqueIdentifier>{db59ca7f-35e3-48ee-9e89-da8c0d848cdf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter6\remote_with_undo">
+      <UniqueIdentifier>{56fdd81e-bd60-42ff-9fd3-e15ec4ac817c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote_with_undo">
+      <UniqueIdentifier>{0dc10243-5a30-4219-87a7-c54a629fd773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote_with_undo\api">
+      <UniqueIdentifier>{368a4f29-eb71-4936-af68-0552b0ed6a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote_with_undo\command">
+      <UniqueIdentifier>{5680ebeb-4389-4a73-a331-459b3481698f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -435,6 +447,42 @@
     <ClCompile Include="chapter6_remote_hottub_off_command.cpp">
       <Filter>소스 파일\chapter6\remote\command</Filter>
     </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_control.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_light_api.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_api.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_no_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_light_on_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_light_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_dimmer_light_on_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_dimmer_light_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_high_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_medium_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_low_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -568,6 +616,18 @@
     </ClInclude>
     <ClInclude Include="chapter6_remote_control.h">
       <Filter>헤더 파일\chapter6\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_with_undo_command_interface.h">
+      <Filter>헤더 파일\chapter6\remote_with_undo</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_with_undo_command.h">
+      <Filter>헤더 파일\chapter6\remote_with_undo</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_with_undo_api.h">
+      <Filter>헤더 파일\chapter6\remote_with_undo</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_with_undo_control.h">
+      <Filter>헤더 파일\chapter6\remote_with_undo</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

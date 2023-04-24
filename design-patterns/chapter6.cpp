@@ -5,6 +5,9 @@
 #include "chapter6_remote_control.h"
 #include "chapter6_remote_command.h"
 #include "chapter6_remote_api.h"
+#include "chapter6_remote_with_undo_control.h"
+#include "chapter6_remote_with_undo_command.h"
+#include "chapter6_remote_with_undo_api.h"
 
 namespace chapter6 {
 	void main() {
@@ -61,5 +64,41 @@ namespace chapter6 {
 		delete ceiling_fan;
 		delete garage_door;
 		delete stereo;
+
+		std::cout << "========== remote with undo ==========" << std::endl;
+		chapter6_remote_with_undo::RemoteControl* remote_with_undo = new chapter6_remote_with_undo::RemoteControl();
+		chapter6_remote_with_undo::Light* living_room_light2 = new chapter6_remote_with_undo::Light("Living Room");
+		chapter6_remote_with_undo::CeilingFan* ceiling_fan2 = new chapter6_remote_with_undo::CeilingFan("Living Room");
+
+		std::cout << remote_with_undo->ToString() << std::endl;
+		remote_with_undo->SetCommand(0,
+			new chapter6_remote_with_undo::LightOnCommand(living_room_light2),
+			new chapter6_remote_with_undo::LightOffCommand(living_room_light2));
+		remote_with_undo->OnButtonWasPushed(0);
+		remote_with_undo->OffButtonWasPushed(0);
+		std::cout << remote_with_undo->ToString() << std::endl;
+		remote_with_undo->UndoButtonWasPushed();
+		remote_with_undo->OffButtonWasPushed(0);
+		remote_with_undo->OnButtonWasPushed(0);
+		std::cout << remote_with_undo->ToString() << std::endl;
+		remote_with_undo->UndoButtonWasPushed();
+
+		remote_with_undo->SetCommand(1,
+			new chapter6_remote_with_undo::CeilingFanMediumCommand(ceiling_fan2),
+			new chapter6_remote_with_undo::CeilingFanOffCommand(ceiling_fan2));
+		remote_with_undo->SetCommand(2,
+			new chapter6_remote_with_undo::CeilingFanHighCommand(ceiling_fan2),
+			new chapter6_remote_with_undo::CeilingFanOffCommand(ceiling_fan2));
+		remote_with_undo->OnButtonWasPushed(1);
+		remote_with_undo->OffButtonWasPushed(1);
+		std::cout << remote_with_undo->ToString();
+		remote_with_undo->UndoButtonWasPushed();
+		remote_with_undo->OnButtonWasPushed(2);
+		std::cout << remote_with_undo->ToString();
+		remote_with_undo->UndoButtonWasPushed();
+
+		delete remote_with_undo;
+		delete living_room_light2;
+		delete ceiling_fan2;
 	}
 }
