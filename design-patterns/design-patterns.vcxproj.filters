@@ -139,6 +139,18 @@
     <Filter Include="소스 파일\chapter6\remote_with_undo\command">
       <UniqueIdentifier>{5680ebeb-4389-4a73-a331-459b3481698f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter6\macro">
+      <UniqueIdentifier>{4bd8225f-71c3-4489-8e6e-afe8692819c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter6\macro">
+      <UniqueIdentifier>{847f1995-4a42-4061-b10c-386c7c48f97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\macro\api">
+      <UniqueIdentifier>{62e58e92-f01c-4316-83ea-e807d025098e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\macro\command">
+      <UniqueIdentifier>{be88f888-d1e7-4aaa-b728-45709bfbe1f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -483,6 +495,69 @@
     <ClCompile Include="chapter6_remote_with_undo_ceiling_fan_off_command.cpp">
       <Filter>소스 파일\chapter6\remote_with_undo\command</Filter>
     </ClCompile>
+    <ClCompile Include="chapter6_macro_light_api.cpp">
+      <Filter>소스 파일\chapter6\macro\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_no_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_ceiling_fan_api.cpp">
+      <Filter>소스 파일\chapter6\macro\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_hottub_api.cpp">
+      <Filter>소스 파일\chapter6\macro\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_stereo_api.cpp">
+      <Filter>소스 파일\chapter6\macro\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_tv_api.cpp">
+      <Filter>소스 파일\chapter6\macro\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_light_on_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_light_off_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_ceiling_fan_high_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_ceiling_fan_medium_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_ceiling_fan_low_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_ceiling_fan_off_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_hottub_on_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_hottub_off_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_stereo_on_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_stereo_on_with_cd_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_stereo_off_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_tv_on_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_tv_off_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_control.cpp">
+      <Filter>소스 파일\chapter6\macro</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_macro_macro_command.cpp">
+      <Filter>소스 파일\chapter6\macro\command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -628,6 +703,18 @@
     </ClInclude>
     <ClInclude Include="chapter6_remote_with_undo_control.h">
       <Filter>헤더 파일\chapter6\remote_with_undo</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_macro_api.h">
+      <Filter>헤더 파일\chapter6\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_macro_command_interface.h">
+      <Filter>헤더 파일\chapter6\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_macro_command.h">
+      <Filter>헤더 파일\chapter6\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_macro_control.h">
+      <Filter>헤더 파일\chapter6\macro</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

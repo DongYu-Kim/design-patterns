@@ -1,7 +1,7 @@
 #include <iostream>
-#include "chapter6_remote_api.h"
+#include "chapter6_macro_api.h"
 
-namespace chapter6_remote {
+namespace chapter6_macro {
 	TV::TV(std::string location) {
 		this->location_ = location;
 	}
