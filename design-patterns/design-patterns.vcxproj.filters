@@ -115,6 +115,18 @@
     <Filter Include="소스 파일\chapter6\simple_remote\command">
       <UniqueIdentifier>{c29dd2fe-565d-48ca-8ca7-5e77d417f157}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter6\remote">
+      <UniqueIdentifier>{32cca4ec-2b88-44eb-b3aa-6087f73e6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote">
+      <UniqueIdentifier>{2d6a4c3e-3d04-4c52-8796-f5e3e0a12433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote\api">
+      <UniqueIdentifier>{8595b69a-f8a6-43b6-b8a5-251cd91056e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter6\remote\command">
+      <UniqueIdentifier>{db59ca7f-35e3-48ee-9e89-da8c0d848cdf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -369,6 +381,60 @@
     <ClCompile Include="chapter6_simple_remote_control.cpp">
       <Filter>소스 파일\chapter6\simple_remote</Filter>
     </ClCompile>
+    <ClCompile Include="chapter6_remote_control.cpp">
+      <Filter>소스 파일\chapter6\remote</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_light_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_garage_door_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_ceiling_fan_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_stereo_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_hottub_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_tv_api.cpp">
+      <Filter>소스 파일\chapter6\remote\api</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_no_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_light_on_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_light_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_garage_door_up_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_garage_door_down_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_ceiling_fan_on_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_ceiling_fan_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_stereo_on_with_cd_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_stereo_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_hottub_on_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter6_remote_hottub_off_command.cpp">
+      <Filter>소스 파일\chapter6\remote\command</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -490,6 +556,18 @@
     </ClInclude>
     <ClInclude Include="chapter6_simple_remote_control.h">
       <Filter>헤더 파일\chapter6\simple_remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_command_interface.h">
+      <Filter>헤더 파일\chapter6\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_command.h">
+      <Filter>헤더 파일\chapter6\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_api.h">
+      <Filter>헤더 파일\chapter6\remote</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter6_remote_control.h">
+      <Filter>헤더 파일\chapter6\remote</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
