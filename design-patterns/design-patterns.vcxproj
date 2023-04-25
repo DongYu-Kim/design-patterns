@@ -266,6 +266,12 @@
     <ClCompile Include="chapter7_object_adapter_duck_adapter.cpp" />
     <ClCompile Include="chapter7_object_adapter_wild_turkey.cpp" />
     <ClCompile Include="chapter7_object_adapter_turkey_adapter.cpp" />
+    <ClCompile Include="chapter8.cpp" />
+    <ClCompile Include="chapter8_caffeine_beverage_template.cpp" />
+    <ClCompile Include="chapter8_caffeine_beverage_with_hook_template.cpp" />
+    <ClCompile Include="chapter8_coffee_with_hook.cpp" />
+    <ClCompile Include="chapter8_tea.cpp" />
+    <ClCompile Include="chapter8_tea_with_hook.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -280,6 +286,7 @@
     <ClCompile Include="chapter2_heat_index_display.cpp" />
     <ClCompile Include="chapter3_whip.cpp" />
     <ClCompile Include="chapter6_remote_with_undo_light_api.cpp" />
+    <ClCompile Include="chapter8_coffee.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1.h" />
@@ -347,6 +354,9 @@
     <ClInclude Include="chapter7_object_adapter_duck.h" />
     <ClInclude Include="chapter7_object_adapter_duck_interface.h" />
     <ClInclude Include="chapter7_object_adapter_turkey_interface.h" />
+    <ClInclude Include="chapter8.h" />
+    <ClInclude Include="chapter8_beverage.h" />
+    <ClInclude Include="chapter8_template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

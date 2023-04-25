@@ -196,6 +196,18 @@
     <Filter Include="소스 파일\chapter7\facade\system">
       <UniqueIdentifier>{b68a62fc-56cd-4b73-89c8-ac25a2be187c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter8">
+      <UniqueIdentifier>{633dc084-ac62-4c34-abf9-40ad98d5aa3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter8">
+      <UniqueIdentifier>{417782c0-8198-4e00-8a4b-23990697f302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter8\template">
+      <UniqueIdentifier>{fa788767-f617-45a1-94f1-b572b214ba53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter8\beverage">
+      <UniqueIdentifier>{99eb367e-4965-4d73-b835-803a6f75ae67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -657,6 +669,27 @@
     <ClCompile Include="chapter7_facade_home_theater_facade.cpp">
       <Filter>소스 파일\chapter7\facade</Filter>
     </ClCompile>
+    <ClCompile Include="chapter8.cpp">
+      <Filter>소스 파일\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_caffeine_beverage_template.cpp">
+      <Filter>소스 파일\chapter8\template</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_caffeine_beverage_with_hook_template.cpp">
+      <Filter>소스 파일\chapter8\template</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_coffee.cpp">
+      <Filter>소스 파일\chapter8\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_tea.cpp">
+      <Filter>소스 파일\chapter8\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_coffee_with_hook.cpp">
+      <Filter>소스 파일\chapter8\beverage</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter8_tea_with_hook.cpp">
+      <Filter>소스 파일\chapter8\beverage</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -853,6 +886,15 @@
     </ClInclude>
     <ClInclude Include="chapter7_facade.h">
       <Filter>헤더 파일\chapter7\facade</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter8.h">
+      <Filter>헤더 파일\chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter8_template.h">
+      <Filter>헤더 파일\chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter8_beverage.h">
+      <Filter>헤더 파일\chapter8</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
