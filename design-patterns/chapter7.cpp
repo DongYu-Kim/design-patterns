@@ -5,6 +5,7 @@
 #include "chapter7_class_adapter.h"
 #include "chapter7_class_adapter_duck.h"
 #include "chapter7_class_adapter_turkey.h"
+#include "chapter7_facade.h"
 
 namespace chapter7 {
 	void main() {
@@ -40,5 +41,29 @@ namespace chapter7 {
 		duck_turkey2->Fly();
 		delete turkey_duck2;
 		delete duck_turkey2;
+
+		std::cout << "========== facade ==========" << std::endl;
+		chapter7_facade::Amplifier* amp = new chapter7_facade::Amplifier("엠프");
+		chapter7_facade::Tuner* tuner = new chapter7_facade::Tuner("AM/FM 튜너", amp);
+		chapter7_facade::StreamingPlayer* player = new chapter7_facade::StreamingPlayer("스트리밍 재생기", amp);
+		chapter7_facade::CdPlayer* cd = new chapter7_facade::CdPlayer("CD 플레이어", amp);
+		chapter7_facade::Projector* projector = new chapter7_facade::Projector("프로젝터", player);
+		chapter7_facade::TheaterLights* lights = new chapter7_facade::TheaterLights("영화관 천장 전구들");
+		chapter7_facade::Screen* screen = new chapter7_facade::Screen("영화관 스크린");
+		chapter7_facade::PopcornPopper* popper = new chapter7_facade::PopcornPopper("팝콘 기계");
+		
+		chapter7_facade::HomeTheaterFacade* home_theater = new chapter7_facade::HomeTheaterFacade(amp, tuner, player, projector, screen, lights, popper);
+		home_theater->WatchMovie("Raiders of the Lost Ark");
+		home_theater->EndMovie();
+
+		delete amp;
+		delete tuner;
+		delete player;
+		delete cd;
+		delete projector;
+		delete lights;
+		delete screen;
+		delete popper;
+		delete home_theater;
 	}
 }

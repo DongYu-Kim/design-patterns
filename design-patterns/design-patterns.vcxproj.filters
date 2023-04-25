@@ -193,6 +193,9 @@
     <Filter Include="소스 파일\chapter7\class_adapter\adapter">
       <UniqueIdentifier>{5f9e4d22-e416-4ea2-813b-ff6c442949d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter7\facade\system">
+      <UniqueIdentifier>{b68a62fc-56cd-4b73-89c8-ac25a2be187c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -627,6 +630,33 @@
     <ClCompile Include="chapter7_class_adapter_wild_turkey_adapter.cpp">
       <Filter>소스 파일\chapter7\class_adapter\adapter</Filter>
     </ClCompile>
+    <ClCompile Include="chapter7_facade_system_screen.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_popcorn_popper.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_theater_lights.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_streaming_player.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_projector.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_tuner.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_amplifier.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_system_cd_player.cpp">
+      <Filter>소스 파일\chapter7\facade\system</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_facade_home_theater_facade.cpp">
+      <Filter>소스 파일\chapter7\facade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -817,6 +847,12 @@
     </ClInclude>
     <ClInclude Include="chapter7_class_adapter.h">
       <Filter>헤더 파일\chapter7\class_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_facade_system.h">
+      <Filter>헤더 파일\chapter7\facade</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_facade.h">
+      <Filter>헤더 파일\chapter7\facade</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

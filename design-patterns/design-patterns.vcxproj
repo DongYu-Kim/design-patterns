@@ -253,6 +253,15 @@
     <ClCompile Include="chapter7_class_adapter_wild_turkey_adapter.cpp" />
     <ClCompile Include="chapter7_class_object_mallard_duck.cpp" />
     <ClCompile Include="chapter7_class_object_wild_turkey.cpp" />
+    <ClCompile Include="chapter7_facade_home_theater_facade.cpp" />
+    <ClCompile Include="chapter7_facade_system_amplifier.cpp" />
+    <ClCompile Include="chapter7_facade_system_cd_player.cpp" />
+    <ClCompile Include="chapter7_facade_system_popcorn_popper.cpp" />
+    <ClCompile Include="chapter7_facade_system_projector.cpp" />
+    <ClCompile Include="chapter7_facade_system_screen.cpp" />
+    <ClCompile Include="chapter7_facade_system_streaming_player.cpp" />
+    <ClCompile Include="chapter7_facade_system_theater_lights.cpp" />
+    <ClCompile Include="chapter7_facade_system_tuner.cpp" />
     <ClCompile Include="chapter7_object_adapter_mallard_duck.cpp" />
     <ClCompile Include="chapter7_object_adapter_duck_adapter.cpp" />
     <ClCompile Include="chapter7_object_adapter_wild_turkey.cpp" />
@@ -331,6 +340,8 @@
     <ClInclude Include="chapter7_class_adapter_duck_interface.h" />
     <ClInclude Include="chapter7_class_adapter_turkey.h" />
     <ClInclude Include="chapter7_class_adapter_turkey_interface.h" />
+    <ClInclude Include="chapter7_facade.h" />
+    <ClInclude Include="chapter7_facade_system.h" />
     <ClInclude Include="chapter7_object_adapter.h" />
     <ClInclude Include="chapter7_object_adapter_turkey.h" />
     <ClInclude Include="chapter7_object_adapter_duck.h" />
