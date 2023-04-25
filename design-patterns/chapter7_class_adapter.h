@@ -3,7 +3,7 @@
 #include "chapter7_class_adapter_turkey.h"
 
 namespace chapter7_class_adapter {
-	class MallardDuckAdapter : public WildTurkey, public MallardDuck {
+	class MallardDuckAdapter : public Turkey, public MallardDuck {
 	private:
 		virtual void Quack() override;
 	public:
@@ -11,7 +11,7 @@ namespace chapter7_class_adapter {
 		virtual void Fly() override;
 	};
 	
-	class WildTurkeyAdapter : public MallardDuck, public WildTurkey {
+	class WildTurkeyAdapter : public Duck, public WildTurkey {
 	private:
 		virtual void Gobble() override;
 	public:
