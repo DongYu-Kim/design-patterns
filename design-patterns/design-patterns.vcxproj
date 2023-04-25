@@ -248,6 +248,15 @@
     <ClCompile Include="chapter6_simple_remote_light_api.cpp" />
     <ClCompile Include="chapter6_simple_remote_light_off_command.cpp" />
     <ClCompile Include="chapter6_simple_remote_light_on_command.cpp" />
+    <ClCompile Include="chapter7.cpp" />
+    <ClCompile Include="chapter7_class_adapter_mallard_duck_adapter.cpp" />
+    <ClCompile Include="chapter7_class_adapter_wild_turkey_adapter.cpp" />
+    <ClCompile Include="chapter7_class_object_mallard_duck.cpp" />
+    <ClCompile Include="chapter7_class_object_wild_turkey.cpp" />
+    <ClCompile Include="chapter7_object_adapter_mallard_duck.cpp" />
+    <ClCompile Include="chapter7_object_adapter_duck_adapter.cpp" />
+    <ClCompile Include="chapter7_object_adapter_wild_turkey.cpp" />
+    <ClCompile Include="chapter7_object_adapter_turkey_adapter.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -316,6 +325,17 @@
     <ClInclude Include="chapter6_simple_remote_command.h" />
     <ClInclude Include="chapter6_simple_remote_command_interface.h" />
     <ClInclude Include="chapter6_simple_remote_control.h" />
+    <ClInclude Include="chapter7.h" />
+    <ClInclude Include="chapter7_class_adapter.h" />
+    <ClInclude Include="chapter7_class_adapter_duck.h" />
+    <ClInclude Include="chapter7_class_adapter_duck_interface.h" />
+    <ClInclude Include="chapter7_class_adapter_turkey.h" />
+    <ClInclude Include="chapter7_class_adapter_turkey_interface.h" />
+    <ClInclude Include="chapter7_object_adapter.h" />
+    <ClInclude Include="chapter7_object_adapter_turkey.h" />
+    <ClInclude Include="chapter7_object_adapter_duck.h" />
+    <ClInclude Include="chapter7_object_adapter_duck_interface.h" />
+    <ClInclude Include="chapter7_object_adapter_turkey_interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

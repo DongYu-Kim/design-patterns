@@ -151,6 +151,48 @@
     <Filter Include="소스 파일\chapter6\macro\command">
       <UniqueIdentifier>{be88f888-d1e7-4aaa-b728-45709bfbe1f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter7">
+      <UniqueIdentifier>{16641d2d-3c4d-4d91-b3d1-b50207729880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter7">
+      <UniqueIdentifier>{e279cdbc-a832-41d1-b61d-d553274d18aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter7\object_adapter">
+      <UniqueIdentifier>{9df27209-afbf-4bdd-855d-40fab0d74d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter7\class_adapter">
+      <UniqueIdentifier>{1714f122-8f37-4cb3-8180-33bc1c9f3a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter7\facade">
+      <UniqueIdentifier>{e4e1010f-6fb0-4194-a69e-571f43c5d1ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\class_adapter">
+      <UniqueIdentifier>{c1f7ff6f-4471-4a0b-82a0-50c9aff1d4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\facade">
+      <UniqueIdentifier>{0635d0fc-a132-462f-b910-e25314d7e13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\object_adapter">
+      <UniqueIdentifier>{4b924b45-d84c-4c99-a202-3380598d92e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\object_adapter\duck">
+      <UniqueIdentifier>{8e20e91a-7e6d-4a6e-aa1c-720e0e17783f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\object_adapter\turkey">
+      <UniqueIdentifier>{bafa48fe-10dd-45ae-be58-df5892754ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\object_adapter\adapter">
+      <UniqueIdentifier>{fec71844-d914-4e26-aeb2-cabf8fec49f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\class_adapter\duck">
+      <UniqueIdentifier>{e6ac15a3-f1c7-4abe-b7b0-d5afe924dbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\class_adapter\turkey">
+      <UniqueIdentifier>{dbb33988-ecdb-4a4a-a50b-aebb6d53604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter7\class_adapter\adapter">
+      <UniqueIdentifier>{5f9e4d22-e416-4ea2-813b-ff6c442949d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -558,6 +600,33 @@
     <ClCompile Include="chapter6_macro_macro_command.cpp">
       <Filter>소스 파일\chapter6\macro\command</Filter>
     </ClCompile>
+    <ClCompile Include="chapter7.cpp">
+      <Filter>소스 파일\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_object_adapter_mallard_duck.cpp">
+      <Filter>소스 파일\chapter7\object_adapter\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_object_adapter_wild_turkey.cpp">
+      <Filter>소스 파일\chapter7\object_adapter\turkey</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_object_adapter_duck_adapter.cpp">
+      <Filter>소스 파일\chapter7\object_adapter\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_object_adapter_turkey_adapter.cpp">
+      <Filter>소스 파일\chapter7\object_adapter\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_class_object_mallard_duck.cpp">
+      <Filter>소스 파일\chapter7\class_adapter\duck</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_class_object_wild_turkey.cpp">
+      <Filter>소스 파일\chapter7\class_adapter\turkey</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_class_adapter_mallard_duck_adapter.cpp">
+      <Filter>소스 파일\chapter7\class_adapter\adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter7_class_adapter_wild_turkey_adapter.cpp">
+      <Filter>소스 파일\chapter7\class_adapter\adapter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -715,6 +784,39 @@
     </ClInclude>
     <ClInclude Include="chapter6_macro_control.h">
       <Filter>헤더 파일\chapter6\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7.h">
+      <Filter>헤더 파일\chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_object_adapter_duck_interface.h">
+      <Filter>헤더 파일\chapter7\object_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_object_adapter_turkey_interface.h">
+      <Filter>헤더 파일\chapter7\object_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_object_adapter_duck.h">
+      <Filter>헤더 파일\chapter7\object_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_object_adapter_turkey.h">
+      <Filter>헤더 파일\chapter7\object_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_object_adapter.h">
+      <Filter>헤더 파일\chapter7\object_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_class_adapter_turkey_interface.h">
+      <Filter>헤더 파일\chapter7\class_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_class_adapter_duck_interface.h">
+      <Filter>헤더 파일\chapter7\class_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_class_adapter_turkey.h">
+      <Filter>헤더 파일\chapter7\class_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_class_adapter_duck.h">
+      <Filter>헤더 파일\chapter7\class_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter7_class_adapter.h">
+      <Filter>헤더 파일\chapter7\class_adapter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
