@@ -226,6 +226,12 @@
     <Filter Include="소스 파일\chapter9\iterator\iterator">
       <UniqueIdentifier>{955aed7c-8191-4eda-b3d1-634df02ffea4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter9\composite">
+      <UniqueIdentifier>{3bfd8107-8efe-44a4-bbf9-27876cf047e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter9\composite">
+      <UniqueIdentifier>{358136e1-ea67-4187-bd04-9f370c70ecfd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -729,6 +735,18 @@
     <ClCompile Include="chapter9_iterator_waitress.cpp">
       <Filter>소스 파일\chapter9\iterator</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9_composite_menu_component.cpp">
+      <Filter>소스 파일\chapter9\composite</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_composite_menu_item.cpp">
+      <Filter>소스 파일\chapter9\composite</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_composite_menu.cpp">
+      <Filter>소스 파일\chapter9\composite</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_composite_waitress.cpp">
+      <Filter>소스 파일\chapter9\composite</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -955,6 +973,18 @@
     </ClInclude>
     <ClInclude Include="chapter9_iterator_waitress.h">
       <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_composite_menu_component.h">
+      <Filter>헤더 파일\chapter9\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_composite_menu_item.h">
+      <Filter>헤더 파일\chapter9\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_composite_menu.h">
+      <Filter>헤더 파일\chapter9\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_composite_waitress.h">
+      <Filter>헤더 파일\chapter9\composite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

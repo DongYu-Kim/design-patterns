@@ -273,6 +273,10 @@
     <ClCompile Include="chapter8_tea.cpp" />
     <ClCompile Include="chapter8_tea_with_hook.cpp" />
     <ClCompile Include="chapter9.cpp" />
+    <ClCompile Include="chapter9_composite_menu.cpp" />
+    <ClCompile Include="chapter9_composite_menu_component.cpp" />
+    <ClCompile Include="chapter9_composite_menu_item.cpp" />
+    <ClCompile Include="chapter9_composite_waitress.cpp" />
     <ClCompile Include="chapter9_interator_menu_item.cpp" />
     <ClCompile Include="chapter9_iterator_diner_menu.cpp" />
     <ClCompile Include="chapter9_iterator_diner_menu_iterator.cpp" />
@@ -365,6 +369,10 @@
     <ClInclude Include="chapter8_beverage.h" />
     <ClInclude Include="chapter8_template.h" />
     <ClInclude Include="chapter9.h" />
+    <ClInclude Include="chapter9_composite_menu.h" />
+    <ClInclude Include="chapter9_composite_menu_component.h" />
+    <ClInclude Include="chapter9_composite_menu_item.h" />
+    <ClInclude Include="chapter9_composite_waitress.h" />
     <ClInclude Include="chapter9_iterator.h" />
     <ClInclude Include="chapter9_iterator_interface.h" />
     <ClInclude Include="chapter9_iterator_menu.h" />
