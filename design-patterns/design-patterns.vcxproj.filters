@@ -208,6 +208,24 @@
     <Filter Include="소스 파일\chapter8\beverage">
       <UniqueIdentifier>{99eb367e-4965-4d73-b835-803a6f75ae67}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter9">
+      <UniqueIdentifier>{53478313-1ae5-4eb3-9c66-a187f7694ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter9">
+      <UniqueIdentifier>{1122b177-76c4-4412-b4bc-5cfb25f288d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter9\iterator">
+      <UniqueIdentifier>{5fda4184-f41a-49b9-abfc-cec040240885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter9\iterator">
+      <UniqueIdentifier>{569f8d8e-1837-4a97-9912-217394f51749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter9\iterator\menu">
+      <UniqueIdentifier>{e8983506-0b40-4014-a6a8-90c35c6eaa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter9\iterator\iterator">
+      <UniqueIdentifier>{955aed7c-8191-4eda-b3d1-634df02ffea4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -690,6 +708,27 @@
     <ClCompile Include="chapter8_tea_with_hook.cpp">
       <Filter>소스 파일\chapter8\beverage</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9.cpp">
+      <Filter>소스 파일\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_iterator_diner_menu_iterator.cpp">
+      <Filter>소스 파일\chapter9\iterator\iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_iterator_pancake_house_menu_iterator.cpp">
+      <Filter>소스 파일\chapter9\iterator\iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_iterator_diner_menu.cpp">
+      <Filter>소스 파일\chapter9\iterator\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_iterator_pancake_house_menu.cpp">
+      <Filter>소스 파일\chapter9\iterator\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_interator_menu_item.cpp">
+      <Filter>소스 파일\chapter9\iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9_iterator_waitress.cpp">
+      <Filter>소스 파일\chapter9\iterator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -895,6 +934,27 @@
     </ClInclude>
     <ClInclude Include="chapter8_beverage.h">
       <Filter>헤더 파일\chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9.h">
+      <Filter>헤더 파일\chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator_interface.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator_menu_item.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator_menu_interface.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator_menu.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter9_iterator_waitress.h">
+      <Filter>헤더 파일\chapter9\iterator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

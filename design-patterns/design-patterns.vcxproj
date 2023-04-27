@@ -272,6 +272,13 @@
     <ClCompile Include="chapter8_coffee_with_hook.cpp" />
     <ClCompile Include="chapter8_tea.cpp" />
     <ClCompile Include="chapter8_tea_with_hook.cpp" />
+    <ClCompile Include="chapter9.cpp" />
+    <ClCompile Include="chapter9_interator_menu_item.cpp" />
+    <ClCompile Include="chapter9_iterator_diner_menu.cpp" />
+    <ClCompile Include="chapter9_iterator_diner_menu_iterator.cpp" />
+    <ClCompile Include="chapter9_iterator_pancake_house_menu.cpp" />
+    <ClCompile Include="chapter9_iterator_pancake_house_menu_iterator.cpp" />
+    <ClCompile Include="chapter9_iterator_waitress.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter1_mallard_duck.cpp" />
     <ClCompile Include="chapter1_mute_quack.cpp" />
@@ -357,6 +364,13 @@
     <ClInclude Include="chapter8.h" />
     <ClInclude Include="chapter8_beverage.h" />
     <ClInclude Include="chapter8_template.h" />
+    <ClInclude Include="chapter9.h" />
+    <ClInclude Include="chapter9_iterator.h" />
+    <ClInclude Include="chapter9_iterator_interface.h" />
+    <ClInclude Include="chapter9_iterator_menu.h" />
+    <ClInclude Include="chapter9_iterator_menu_interface.h" />
+    <ClInclude Include="chapter9_iterator_menu_item.h" />
+    <ClInclude Include="chapter9_iterator_waitress.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
