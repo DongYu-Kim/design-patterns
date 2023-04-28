@@ -10,7 +10,6 @@ namespace chapter7_class_adapter {
 		this->Quack();
 	}
 	void MallardDuckAdapter::Fly() {
-		srand(time(0));
 		if (!(rand() % 5)) MallardDuck::Fly();
 	}
 }

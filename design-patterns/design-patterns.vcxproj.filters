@@ -232,6 +232,15 @@
     <Filter Include="소스 파일\chapter9\composite">
       <UniqueIdentifier>{358136e1-ea67-4187-bd04-9f370c70ecfd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\chapter10">
+      <UniqueIdentifier>{de4ad123-1834-436b-a584-a4f954fc6948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter10">
+      <UniqueIdentifier>{6f5de67d-b78a-437f-99de-55fff1867ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter10\state">
+      <UniqueIdentifier>{7cd14a4b-2c3d-4486-b43d-c06e6518adf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -747,6 +756,27 @@
     <ClCompile Include="chapter9_composite_waitress.cpp">
       <Filter>소스 파일\chapter9\composite</Filter>
     </ClCompile>
+    <ClCompile Include="chapter10.cpp">
+      <Filter>소스 파일\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_state_gumball_machine.cpp">
+      <Filter>소스 파일\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_sold_out_state.cpp">
+      <Filter>소스 파일\chapter10\state</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_no_quarter_state.cpp">
+      <Filter>소스 파일\chapter10\state</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_has_quarter_state.cpp">
+      <Filter>소스 파일\chapter10\state</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_sold_state.cpp">
+      <Filter>소스 파일\chapter10\state</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter10_winner_state.cpp">
+      <Filter>소스 파일\chapter10\state</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -985,6 +1015,18 @@
     </ClInclude>
     <ClInclude Include="chapter9_composite_waitress.h">
       <Filter>헤더 파일\chapter9\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10.h">
+      <Filter>헤더 파일\chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10_state_interface.h">
+      <Filter>헤더 파일\chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10_state.h">
+      <Filter>헤더 파일\chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter10_state_gumball_machine.h">
+      <Filter>헤더 파일\chapter10</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
