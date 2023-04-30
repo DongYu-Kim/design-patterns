@@ -9,7 +9,9 @@
 //#include "chapter7.h"
 //#include "chapter8.h"
 //#include "chapter9.h"
-#include "chapter10.h"
+//#include "chapter10.h"
+//#include "chapter11.h"
+#include "chapter12.h"
 
 int main()
 {
@@ -23,7 +25,9 @@ int main()
     //chapter7::main();
     //chapter8::main();
     //chapter9::main();
-    chapter10::main();
+    //chapter10::main();
+    //chapter11::main();  // X
+    chapter12::main();
 
     return 0;
 }

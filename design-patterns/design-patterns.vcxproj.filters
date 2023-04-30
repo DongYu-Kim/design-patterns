@@ -241,6 +241,30 @@
     <Filter Include="소스 파일\chapter10\state">
       <UniqueIdentifier>{7cd14a4b-2c3d-4486-b43d-c06e6518adf1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter11">
+      <UniqueIdentifier>{5a27808f-14f6-4f77-afee-54a655164b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter11">
+      <UniqueIdentifier>{7658ea80-274f-46ef-b0eb-19b6d963b691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter12">
+      <UniqueIdentifier>{70683a27-8737-4315-abc2-811d2a965dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter12">
+      <UniqueIdentifier>{3b6bc38f-fb2d-4d0d-b986-a10114ce0837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\chapter12\combining">
+      <UniqueIdentifier>{ac98ffa7-3622-4fb1-851b-c8cc469afbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter12\combining">
+      <UniqueIdentifier>{155ecd24-2579-49f3-88d7-580828fa5a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter12\combining\quackable">
+      <UniqueIdentifier>{a905e730-6e3c-4473-86ab-6211aedc05e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter12\combining\observer">
+      <UniqueIdentifier>{1baf55da-fb44-4141-8567-c8c63130f16f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -777,6 +801,51 @@
     <ClCompile Include="chapter10_winner_state.cpp">
       <Filter>소스 파일\chapter10\state</Filter>
     </ClCompile>
+    <ClCompile Include="chapter11.cpp">
+      <Filter>소스 파일\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12.cpp">
+      <Filter>소스 파일\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_observable.cpp">
+      <Filter>소스 파일\chapter12\combining</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_iterator.cpp">
+      <Filter>소스 파일\chapter12\combining</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_counting_duck_factory.cpp">
+      <Filter>소스 파일\chapter12\combining</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_quack_counter.cpp">
+      <Filter>소스 파일\chapter12\combining</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_mallard_duck.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_redhead_duck.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_decoy_duck.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_rubber_duck.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_duck_call.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_flock.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_goose.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_goose_adapter.cpp">
+      <Filter>소스 파일\chapter12\combining\quackable</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12_combining_quackologist.cpp">
+      <Filter>소스 파일\chapter12\combining\observer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter1_duck_behavior_interface.h">
@@ -1027,6 +1096,45 @@
     </ClInclude>
     <ClInclude Include="chapter10_state_gumball_machine.h">
       <Filter>헤더 파일\chapter10</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter11.h">
+      <Filter>헤더 파일\chapter11</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12.h">
+      <Filter>헤더 파일\chapter12</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_quack_observable_interface.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_observer_interface.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_observable.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_iterator_interface.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_iterator.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_abstract_duck_factory.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_quackable_interface.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_counting_duck_factory.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_quack_counter.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_quackable.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12_combining_observer.h">
+      <Filter>헤더 파일\chapter12\combining</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

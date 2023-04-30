@@ -10,8 +10,8 @@ namespace chapter9_iterator {
 		int position_ = 0;
 	public:
 		DinerMenuIterator(MenuItem** items, size_t size);
-		MenuItem* Next();
-		bool HasNext();
+		virtual MenuItem* Next() override;
+		virtual bool HasNext() override;
 	};
 
 	class PancakeHouseMenuIterator : public Iterator {
@@ -20,7 +20,7 @@ namespace chapter9_iterator {
 		int position_ = 0;
 	public:
 		PancakeHouseMenuIterator(std::vector<MenuItem*>* items);
-		MenuItem* Next();
-		bool HasNext();
+		virtual MenuItem* Next() override;
+		virtual bool HasNext() override;
 	};
 }
